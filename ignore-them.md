@@ -1,0 +1,23 @@
+# **Ignore-them**
+This is a pretty important challenge since this deals with the files we dont want to upload. A lot of times we might not want to upload files which have sensitive information. In that case, we use this.
+
+```
+Instructions
+It is often good idea to tell Git which files it should track and which it should not.
+Developers almost always do not want to include generated files, compiled code or libraries into their project history.
+
+Your task is to create and commit configuration that would ignore:
+
+all files with exe extension
+all files with o extension
+all files with jar extension
+the whole libraries directory
+```
+Here, we have to create a `.gitignore` file and add the types of file which we want to ignore.(Note: * stands for all)
+```
+*.exe
+*.o
+*.jar
+libraries/
+```
+Just add the .gitignore file , commit and verify! You completed the challenge:)
