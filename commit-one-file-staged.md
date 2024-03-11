@@ -10,6 +10,10 @@ new file:   A.txt
 new file:   B.txt
 ```
 It means that both of the files are staged, we first have to unstage them using `git reset`.
-Then it's the same as the previous challenge:)
+Then it's the same as the previous challenge.
+
+Or you can just use the command `git reset A.txt` to just unstage **A.txt** and then you can just commit:)
+
+
 
 
